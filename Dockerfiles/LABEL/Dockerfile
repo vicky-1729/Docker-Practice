@@ -1,4 +1,4 @@
 FROM almalinux:9
 LABEL name = "vsvicky"/
-      company = "wipro"
+      company = "wipro"/
       Learing = "Devops"
