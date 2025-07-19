@@ -6,6 +6,6 @@ ENV name="vsvicky" \
     course="devops" \
     time="120hrs" \
     partner=${partner}
-CMD ["sleep","1000"]
+
 #How can you use ARG inside container? just pass that value to the env variable with same name
 # docker build --build-arg version=9 --build-arg partner="Azure" -t myimage .
