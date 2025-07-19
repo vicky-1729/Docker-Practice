@@ -1,5 +1,5 @@
 ARG version=8 # just for FROM command only acceptable
-FROM almalinux:{version:-9}
+FROM almalinux
 RUN dnf install nginx -y
 ARG partner="AWS"          # should be accesble upto build imge only not accesble from the continer
 ENV name="vsvicky" \
